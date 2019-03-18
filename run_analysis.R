@@ -1,7 +1,7 @@
 require(plyr)
 
 # Directories and files
-uci_hard_dir <- "UCI\ HAR\ Dataset"
+uci_hard_dir <- "data/UCI HAR Dataset"
 feature_file <- paste(uci_hard_dir, "/features.txt", sep = "")
 activity_labels_file <- paste(uci_hard_dir, "/activity_labels.txt", sep = "")
 x_train_file <- paste(uci_hard_dir, "/train/X_train.txt", sep = "")
